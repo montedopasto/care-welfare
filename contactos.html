@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Prepare um pedido de contacto para a equipa da Care &amp; Welfare.">
+<title>Contactos | Care &amp; Welfare</title>
+<link rel="stylesheet" href="styles.css">
+<script src="request.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Saltar para o conteúdo</a>
+<header><div class="shell"><a class="brand" href="index.html"><i aria-hidden="true">&amp;</i>Care &amp; Welfare</a><nav aria-label="Navegação principal"><a href="index.html">Início</a>
+<a href="servicos.html">Serviços</a>
+<a href="contactos.html" aria-current="page">Contactos</a></nav></div></header>
+<main id="conteudo"><section id="contacto" class="contact"><div class="shell split"><div><h1>Contactos</h1><p>Indique o tipo de apoio de que precisa e o que pretende melhorar na sua exploração.</p><div class="contact-guide"><h2>O que incluir no pedido</h2><ul><li>O tipo de exploração e a dimensão aproximada do efetivo.</li><li>O processo que pretende acompanhar e como é feito hoje.</li><li>Os registos já disponíveis, como pesagens ou folhas de ronda.</li></ul></div></div><form id="request"><h2>Preparar pedido</h2><div class="two"><label>Nome<input name="nome" autocomplete="name" required></label><label>Exploração ou empresa<input name="empresa" autocomplete="organization" required></label></div><label>Email<input name="email" type="email" autocomplete="email" required></label><label>Área de interesse<select name="area"><option>Serviços veterinários</option><option>Digitalização de processos</option><option>Análise de dados e IA</option><option>Várias áreas</option></select></label><label>O que pretende melhorar?<textarea name="objetivo" rows="3" required></textarea></label><button class="button" type="submit">Descarregar resumo do pedido</button><p>O formulário gera um ficheiro no seu dispositivo. O envio de pedidos pelo site será disponibilizado quando o contacto comercial estiver configurado.</p><p id="request-status" role="status"></p></form></div></section>
+</main>
+<footer><div class="shell"><div><a class="brand" href="index.html"><i aria-hidden="true">&amp;</i>Care &amp; Welfare</a><p>Serviços veterinários e tecnologia pecuária</p></div><nav aria-label="Navegação no rodapé"><a href="index.html">Início</a><a href="servicos.html">Serviços</a><a href="contactos.html">Contactos</a></nav></div></footer>
+</body>
+</html>
