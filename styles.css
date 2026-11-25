@@ -42,3 +42,5 @@ footer p{margin-top:.35rem;color:var(--muted)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 .masthead{background-image:linear-gradient(90deg,#10271eeb 0%,#11291ed9 25%,#142d2177 58%,#142d2133 100%),url("campo.jpg");background-position:center,center 56%;background-size:cover}
 @media(max-width:790px){.masthead{background-image:linear-gradient(90deg,#10271ee8,#10271e88),url("campo.jpg");background-position:center,62% 50%}}
+.official-logo{display:block;position:relative;overflow:hidden;width:150px;height:111px;background:white}
+.official-logo img{position:absolute;width:210px;height:210px;max-width:none;top:-43px;left:-29px}
